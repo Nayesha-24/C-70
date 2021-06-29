@@ -1,0 +1,71 @@
+body{
+    
+    text-align: center;
+}
+
+
+#schoolname{
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#marquee-style{
+    
+    background-color: blue;
+}
+#achievementsID{
+     padding-bottom: 10px;
+}
+    
+.movie_head{
+    
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    
+}    
+.movie_head i
+{
+    float: right;
+}
+.movie_text span
+{
+    color: orange
+}
+
+.row::after{
+    content: "Hi";
+    clear: both;
+    display: table;
+       
+}
+.travel_mainDIV
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7
+}
+
+.travel_mainDIV img
+{
+    width: 100%;
+    height: 100%;
+}
+.travel_mainDIV hr
+{
+    width: 100%;
+    
+}
+
+.travel_mainDIV h5,.travel_mainDiv p
+{
+    margin-left: 20px;
+}
